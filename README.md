@@ -1,4 +1,5 @@
 # Rank Dichotomy Theorem (CAT(0) Cube Complexes)
+DOI: https://doi.org/10.5281/zenodo.18450375
 
 Status: Final / Closed  
 Author: Inacio F. Vasquez  
