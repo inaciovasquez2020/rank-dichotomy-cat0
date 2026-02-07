@@ -21,4 +21,8 @@ This repository is intentionally minimal.
 - No generalizations
 - No auxiliary frameworks
 
+## Navigation
+- Framework overview: https://inaciovasquez2020.github.io
+- Index: https://inaciovasquez2020.github.io/vasquez-index/
+
 Any future work must occur in a separate repository.
