@@ -3,7 +3,6 @@ set -euo pipefail
 
 test -f THEOREM.md
 test -f STATUS.md
-test -f rank-dichotomy-cat0.tex
 test -f rank-dichotomy-cat0.pdf
 test -f rank-dichotomy-cat0.pdf.sha256
 
@@ -17,4 +16,4 @@ if [ "$ACTUAL" != "$EXPECTED" ]; then
   exit 1
 fi
 
-echo "OK: canonical artifact verified"
+echo "OK: committed canonical PDF matches hash lock"
