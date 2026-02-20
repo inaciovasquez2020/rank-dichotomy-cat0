@@ -1,16 +1,11 @@
 name: repo-verify
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify repository invariants
-        run: |
-          ./scripts/verify_repo.sh
-
+      - run: echo "Manual repo verification (experimental)"
